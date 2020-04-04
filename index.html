@@ -3,8 +3,8 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Facile Stampare | Cosa vuoi stampare oggi?</title>
-  <meta name="description" content="FacileStampare, portale dedicato ai servizi di grafica e stampa, stampare non è mai stato così facile."/>
+  <title>Facile Stampare</title>
+  <link rel="icon" type="image/ico" href="ico/print-flat.png"/>
 
   <!-- CSS -->
 
@@ -22,28 +22,31 @@
 
 </head>
 <body>
+
     <!-- Fixed NavBar-->
 
-    <div class="navbar-fixed">
+  <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper white">
-        <a href="#" class="brand-logo">FacileStampare</a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <a href="#" class="brand-logo">FacileStampare</a>
+          <a href="#" class="sidenav-trigger" data-target="mobile-demo">
+          <i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
           <li><a href="#servizio">Servizi</a></li>
           <li><a href="#registrazione">Registrati</a>
           <li><a href="#professionista">Area Professionista</a></li>
-          <li><a href="">Accedi</a></li>
-        </ul>
-          <ul class="sidenav" id="mobile-demo">
-          <li><a href="#servizio">Servizi</a></li>
-          <li><a href="#registrazione">Registrati</a>
-          <li><a href="#professionista">Area Professionista</a></li>
-          <li><a href="">Accedi</a></li>
+          <li><a href="#contattaci">Contattaci</a></li>
         </ul>
       </div>
     </nav>
   </div>
+
+  <ul class="sidenav" id="mobile-demo">
+          <li><a href="#servizio">Servizi</a></li>
+          <li><a href="#registrazione">Registrati</a>
+          <li><a href="#professionista">Area Professionista</a></li>
+          <li><a href="#contattaci">Contattaci</a></li>
+  </ul>
 
 <!--INTRO-->
 
@@ -113,7 +116,7 @@
     <div class="section-registrazione no-pad-bot">
       <div class="container">
         <div class="row center">
-          <div class="col-professionista col s12 center">
+          <div class="col-registrazione col s12 center">
             <h2 class="registrazione-icon center light"><i class="fas fa-envelope"></i> 
             <h3 class="white-text">Basta cercare professionisti e preventivi in lungo e largo.</h3>
             <h5 class="registrazione-subtitle col s12 light">Lascia la tua email e ricevi aggiornamenti sul rilascio della versione Beta.</h5>
@@ -138,7 +141,7 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="img/cassette-mail.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
 <!--PROFESSIONISTA-->
@@ -163,7 +166,7 @@
 
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
-      <div class="container">
+      <div id="contattaci" class="container">
         <div class="row center">
         </div>
       </div>
@@ -197,7 +200,8 @@
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
 
-  <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+  <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() 
+  </script>
 
   </body>
 </html>
