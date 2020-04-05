@@ -7,15 +7,18 @@
  */
 
 body {
-font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+
 }
 
 nav ul a,
 nav .brand-logo {
   color: #ef5350;
+  size: 10px;
 }
 nav .brand-logo {
-  font-family: 'Satisfy', cursive;
+  font-family: 'Lobster', cursive;
+  margin-top: 5px;
 }
 
 .nav-wrapper {
