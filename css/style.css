@@ -55,7 +55,8 @@ p {
 }
 
 .header {
-  margin-top: 15%;
+  margin-top: 10%;
+  font-size: 3em;
 }
 .header-subtitle {
   margin-top: 40px;
@@ -122,12 +123,13 @@ color: #00bfa5;
 }
 
 .registrazione-icon {
-  margin-top: 45px;
+  margin-top: 40px;
   font-size: 3em;
 }
 
 .registrazione-subtitle {
-  margin-top: 5%;
+  margin-top: 40px;
+  line-height: 1.6em;
   font-size: 1.5em;
 }
 
