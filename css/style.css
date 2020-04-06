@@ -16,9 +16,10 @@ nav .brand-logo {
   color: #ef5350;
   size: 10px;
 }
+
 nav .brand-logo {
   font-family: 'Lobster', cursive;
-  margin-top: 5px;
+  
 }
 
 .nav-wrapper {
