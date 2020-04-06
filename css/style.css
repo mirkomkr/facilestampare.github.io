@@ -85,7 +85,7 @@ p {
 }
 
 .col-servizio {
-  margin-top: 20px;
+  margin-top: 20px; 
   margin-bottom: 20px;
 }
 
@@ -154,6 +154,7 @@ color: #00bfa5;
 }
 .professionista-subtitle {
   margin-top: 3%;
+  line-height: 1.3em;
   font-size: 1.5em;
 }
 .btn-professionista {
