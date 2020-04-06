@@ -14,7 +14,6 @@ body {
 nav ul a,
 nav .brand-logo {
   color: #ef5350;
-  size: 10px;
 }
 
 nav .brand-logo {
@@ -22,7 +21,7 @@ nav .brand-logo {
 }
 
 .nav-wrapper {
-  padding: 0 30px;
+  padding: 0 50px;
 
 }
 
