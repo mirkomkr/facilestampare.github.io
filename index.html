@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Facile Stampare | Ciao! Cosa vuoi stampare oggi?</title>
+  <title>Facile Stampare | Ciao! Cosa vuoi stampare oggi ?</title>
   <link rel="icon" type="image/ico" href="ico/printer.png"/>
   <meta name="description" content="Portale dedicato ai servizi di grafica e stampa. Collegamento diretto tra Cliente e Professionisti"/>
 
@@ -65,25 +65,49 @@
 
 <!--INTRO-->
 
-  <div id="index-banner" class="parallax-container">
-    <div class="section-intro no-pad-bot">
-      <div class="container">
-        <br><br>
-        <h1 class="header center text-white">Stampare non è mai stato cosi facile.</h1>
-        <div class="row center">
-          <h5 class="header-subtitle col s12 light">
-          Portale dedicato ai servizi di grafica e stampa.
-          <br>Collegamento diretto tra Cliente e Professionisti.</br></h5>
+<section>
+    <div class="col s12 center">
+        <div class="slider no-pad-bot">
+          <ul class="slides">
+            <li>
+              <img src="img/facile-stampare.jpg"> <!-- random image -->
+              <div class="caption center-align">
+                <h3>Cosa vuoi stampare oggi?</h3>
+                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+              </div>
+            </li>
+            <li>
+              <img src="img/brochure-stampa.jpg"> <!-- random image -->
+              <div class="caption left-align">
+                <h3>Left Aligned Caption</h3>
+                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+              </div>
+            </li>
+            <li>
+              <img src="img/tipografia-stampa-offset.jpg"> <!-- random image -->
+              <div class="caption right-align">
+                <h3>Right Aligned Caption</h3>
+                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+              </div>
+            </li>
+            <li>
+              <img src= "img/serigrafia-stampa-magliette.jpg"> <!-- random image -->
+              <div class="caption center-align">
+                <h3>This is our big Tagline!</h3>
+                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+              </div>
+            </li>
+          </ul>
         </div>
-        <div class="row center">
+        <br>
+      <div class="row center">
           <a href="#servizio" class="btn btn-servizio waves-effect waves-light red lighten-1">Scopri come funziona</a>
-        </div>
-        <br><br>
-
       </div>
+        </br>
     </div>
-    <div class="parallax"><img src="background1.jpg" alt="Unsplashed"></div>
   </div>
+</section>
+
 
 <!--SERVIZIO-->
 
@@ -231,6 +255,19 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-162881188-1');
+  </script>
+
+  <script>
+      document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.slider');
+    var instances = M.Slider.init(elems, options);
+  });
+  </script>
+ 
+  <script>
+  $(document).ready(function(){
+    $('.slider').slider();
+  });
   </script>
 
 
