@@ -14,11 +14,15 @@ body {
 nav ul a,
 nav .brand-logo {
   color: #ef5350;
+
+
 }
 
 nav .brand-logo {
   font-family: 'Itim', cursive;
-  font-size: 1.8em;
+  font-size: 2em;
+
+
 }
 
 .nav-wrapper {
