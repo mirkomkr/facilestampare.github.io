@@ -17,11 +17,12 @@ nav .brand-logo {
 }
 
 nav .brand-logo {
-  font-family: 'Lobster', cursive;  
+  font-family: 'Itim', cursive;
+  font-size: 1.8em;
 }
 
 .nav-wrapper {
-  padding: 0 50px;
+  padding: 0 30px;
 
 }
 
