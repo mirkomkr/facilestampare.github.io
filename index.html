@@ -66,31 +66,31 @@
 <!--INTRO-->
 
 <section>
-        <div class="slider">
+        <div class="slider no-pad-bot">
           <ul class="slides">
             <li>
-              <img class="img-responsive"  src="slider/facile-stampare.jpg"> <!-- random image -->
+              <img src="slider/facile-stampare.jpg"> <!-- random image -->
               <div class="caption center-align">
                 <h3>Cosa vuoi stampare oggi?</h3>
                 <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
               </div>
             </li>
             <li>
-              <img class="img-responsive" src="slider/brochure-stampa.jpg"> <!-- random image -->
+              <img src="slider/brochure-stampa.jpg"> <!-- random image -->
               <div class="caption left-align">
                 <h3>Left Aligned Caption</h3>
                 <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
               </div>
             </li>
             <li>
-              <img class="img-responsive" src="slider/tipografia-stampa-offset.jpg"> <!-- random image -->
+              <img src="slider/tipografia-stampa-offset.jpg"> <!-- random image -->
               <div class="caption right-align">
                 <h3>Right Aligned Caption</h3>
                 <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
               </div>
             </li>
             <li>
-              <img class="img-responsive" src="slider/serigrafia-stampa-magliette.jpg"> <!-- random image -->
+              <img src= "slider/serigrafia-stampa-magliette.jpg"> <!-- random image -->
               <div class="caption center-align">
                 <h3>This is our big Tagline!</h3>
                 <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
@@ -100,12 +100,13 @@
         </div>
         <br>
       <div class="row center">
-          <a href="#servizio" class="btn btn-servizio waves-effect waves-light red lighten-1 mg-rg">Scopri come funziona</a>
+          <a href="#servizio" class="btn btn-servizio waves-effect waves-light red lighten-1">Scopri come funziona</a>
       </div>
         </br>
     </div>
   </div>
 </section>
+
 
 
 <!--SERVIZIO-->
@@ -259,14 +260,14 @@
   <script>
       document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.slider');
-    var instances = M.Slider.init(elems, {'height' : 450,  'indicators' : false});
-});
+    var instances = M.Slider.init(elems, {'height' : 450, 'indicators' : false});
+  });
   </script>
  
   <script>
-  $(document).ready(function(){
-    $('.slider').slider();
-  });
+   $(document).ready(function () {
+       $('.slider').slider({full_width: true});
+   });
   </script>
 
 

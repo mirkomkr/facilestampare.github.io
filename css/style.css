@@ -42,15 +42,18 @@ p {
   color: #ef5350;
 }
 
-.slider {
-  position: center;
-
+ .slider .slides {
+    background-color: transparent;
+    margin: 0;
+    height: 400px;
 }
 
-.img-responsive {
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
+.slider .slides li img {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size:100% auto;
+    background-repeat: no-repeat;
 }
 
 .parallax-container {
