@@ -42,6 +42,17 @@ p {
   color: #ef5350;
 }
 
+.slider {
+  position: center;
+
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
 .parallax-container {
   min-height: 380px;
   line-height: 0;
@@ -80,7 +91,7 @@ p {
   }
 
     .nav-wrapper {
-      padding: 0 10px;
+      padding: 0 5px;
   }
 }
 
