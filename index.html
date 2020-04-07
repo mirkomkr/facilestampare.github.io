@@ -66,32 +66,31 @@
 <!--INTRO-->
 
 <section>
-    <div class="col s12 center">
-        <div class="slider no-pad-bot">
+        <div class="slider">
           <ul class="slides">
             <li>
-              <img src="img/facile-stampare.jpg"> <!-- random image -->
+              <img class="img-responsive"  src="img/facile-stampare.jpg"> <!-- random image -->
               <div class="caption center-align">
                 <h3>Cosa vuoi stampare oggi?</h3>
                 <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
               </div>
             </li>
             <li>
-              <img src="img/brochure-stampa.jpg"> <!-- random image -->
+              <img class="img-responsive" src="img/brochure-stampa.jpg"> <!-- random image -->
               <div class="caption left-align">
                 <h3>Left Aligned Caption</h3>
                 <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
               </div>
             </li>
             <li>
-              <img src="img/tipografia-stampa-offset.jpg"> <!-- random image -->
+              <img class="img-responsive" src="img/tipografia-stampa-offset.jpg"> <!-- random image -->
               <div class="caption right-align">
                 <h3>Right Aligned Caption</h3>
                 <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
               </div>
             </li>
             <li>
-              <img src= "img/serigrafia-stampa-magliette.jpg"> <!-- random image -->
+              <img class="img-responsive" src="img/serigrafia-stampa-magliette.jpg"> <!-- random image -->
               <div class="caption center-align">
                 <h3>This is our big Tagline!</h3>
                 <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
@@ -101,7 +100,7 @@
         </div>
         <br>
       <div class="row center">
-          <a href="#servizio" class="btn btn-servizio waves-effect waves-light red lighten-1">Scopri come funziona</a>
+          <a href="#servizio" class="btn btn-servizio waves-effect waves-light red lighten-1 mg-rg">Scopri come funziona</a>
       </div>
         </br>
     </div>
@@ -196,7 +195,7 @@
             <h3><i class="mdi-content-send black-text"></i></h3>
             <h3 class="professionista-title col s12 light">Sei un Professionista? 
               <br>Vuoi ampliare il tuo pacchetto clienti su Facile Stampare?</br></h3></h3>
-            <h5 class="professionista-subtitle col s12 light center">Compila il form selezionando i servizi offri,
+            <h5 class="professionista-subtitle col s12 light center">Compila il form selezionando i servizi che offri,
             <br> il nome della tua azienda, e la tua città!</br></h5>
             <a class="typeform-share col l6 offset-l3 btn btn-professionista waves-effect waves-light red lighten-1" href="https://bionikle746.typeform.com/to/gcujCy"data-submit-close-delay="10" target="_blank">Compila il form!</a> 
         </div>
@@ -260,8 +259,8 @@
   <script>
       document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.slider');
-    var instances = M.Slider.init(elems, options);
-  });
+    var instances = M.Slider.init(elems, {'height' : 450,  'indicators' : false});
+});
   </script>
  
   <script>
