@@ -5,29 +5,22 @@
  *
  * Made By MaterializeCSS.com
  */
-
 body {
   font-family: 'Raleway', sans-serif;
-
 }
 
 nav ul a,
 nav .brand-logo {
   color: #ef5350;
-
-
 }
 
 nav .brand-logo {
   font-family: 'Itim', cursive;
   font-size: 2em;
-
-
 }
 
 .nav-wrapper {
   padding: 0 30px;
-
 }
 
 p {
@@ -42,18 +35,18 @@ p {
   color: #ef5350;
 }
 
- .slider .slides {
-    background-color: transparent;
-    background-position: center;
-    margin:
+.slider .slides {
+  background-color: transparent;
+  background-position: center;
+  margin:
     height:
 }
 
 .slider .slides li img {
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    background-size:
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size:
     background-repeat: no-repeat;
 }
 
@@ -64,7 +57,7 @@ p {
   color: #ffffff;
 }
 
-.section-intro{
+.section-intro {
   height: 100%;
   width: 100%;
 }
@@ -73,6 +66,7 @@ p {
   margin-top: 10%;
   font-size: 3em;
 }
+
 .header-subtitle {
   margin-top: 40px;
   line-height: 1.6em;
@@ -84,6 +78,7 @@ p {
     position: absolute;
     top: 40%;
   }
+
   #index-banner .section {
     top: 10%;
   }
@@ -94,8 +89,8 @@ p {
     top: 10px;
   }
 
-    .nav-wrapper {
-      padding: 0 5px;
+  .nav-wrapper {
+    padding: 0 5px;
   }
 }
 
@@ -106,8 +101,8 @@ p {
 
 .icon-block {
   padding: 0 15px;
-
 }
+
 .icon-block .material-icons {
   font-size: inherit;
 }
@@ -116,11 +111,10 @@ p {
   font-size: 1.5em;
   line-height: 1.6em;
   color: #000000;
-
 }
-#servizio h2 {
-color: #00bfa5;
 
+#servizio h2 {
+  color: #00bfa5;
 }
 
 .btn-servizio {
@@ -163,21 +157,24 @@ color: #00bfa5;
   font-size: 3em;
   color: #00bfa5;
 }
-.professionista-title{
+
+.professionista-title {
   margin-top: -3px;
   line-height: 1.3em;
 }
+
 .professionista-subtitle {
   margin-top: 3%;
   line-height: 1.3em;
   font-size: 1.5em;
 }
+
 .btn-professionista {
   width: 100%;
   margin-top: 3%;
   margin-bottom: 30px;
-
 }
+
 footer.page-footer {
   margin: 0;
   background-color: #4db6ac;
@@ -190,5 +187,5 @@ footer.page-footer {
 }
 
 .social-icon:hover {
- color: #00bfa5;
+  color: #00bfa5;
 }
