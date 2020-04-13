@@ -39,13 +39,12 @@ p {
   background-color: transparent;
   background-position: center;
   margin:
-    height:
 }
 
 .slider .slides li img {
   height: 100%;
   width: 100%;
-  background-position: center;
+  background-position: 25% 75%;
   background-size:
     background-repeat: no-repeat;
 }
